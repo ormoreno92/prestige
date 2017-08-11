@@ -9,7 +9,7 @@
       "outDir": "dist",
       "assets": [
         "assets",
-        "favicon.ico"
+        "assets/images/favicon.png"
       ],
       "index": "index.html",
       "main": "main.ts",
@@ -19,9 +19,28 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "assets/css/bootstrap/bootstrap.min.css",
+        "assets/css/fontawesome/font-awesome.css",
+        "assets/js/owl-carousel/owl.carousel.css",
+        "assets/js/owl-carousel/owl.theme.css",
+        "assets/js/owl-carousel/owl.transitions.css",
+        "assets/css/magnific-popup.css",
+        "assets/css/animate.css",
+        "assets/css/style.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "assets/js/jquery-1.11.1.min.js",
+        "assets/js/bootstrap.min.js",
+        "assets/js/owl-carousel/owl.carousel.js",
+        "assets/js/jquery.flexslider-min.js",
+        "assets/js/jquery.bxslider.min.js",
+        "assets/js/jquery.magnific-popup.min.js",
+        "assets/js/easing.js",
+        "assets/js/jquery.parallax-1.1.3.js",
+        "assets/js/jquery.sticky.js",
+        "assets/js/jquery.mixitup.min.js",
+        "assets/js/wow.min.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
