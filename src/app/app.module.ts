@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
@@ -29,6 +31,11 @@ import { HomeComponent } from './home/home.component';
       {
         path: 'Inicio',
         component: HomeComponent
+      }
+      ,
+      {
+        path: 'Galeria',
+        component: GalleryComponent
       }
     ])
   ],
